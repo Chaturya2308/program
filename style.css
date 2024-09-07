@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+    top:0;
+    position: sticky;
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-color: #ffefef6c;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgb(224, 226, 222);
+}
+.myntrahome {
+    height: 45px;
+}
+.logo-container {
+    margin-left: 4%;
+}
+.acttion {
+    margin-right: 4%;
+}
+.navbar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+
+.rightBox{
+    display: flex;
+    margin: 12px;
+  }
+
+.left img{
+  width: 32px;
+  height: 23px;
+}
+
+.container{ 
+  padding: 0 10vw; 
+}
+
+.containerHeader{ 
+  padding: 0 10vw; 
+}
+
+nav{
+  font-size: 12px;
+  padding-top: 14px;
+}
+
+nav ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1{
+  background: #f2f2f2; 
+}
+
+.search{
+  width: 30vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+
+.homeImg{
+  width: 80vw;
+  margin: 12px 0;
+}
+
+.itemImg{
+  width: 10vw;
+  margin: 6px 12px;
+}
+
+footer{
+  padding: 15px;
+  text-align: center;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+h4 {
+  padding: 14px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.tall{
+  min-height: 20vh;
+}
+
+@media (max-width: 450px) { 
+.search {
+    width: 72vw; 
+}
+}
+
+@media (max-width: 1550px) { 
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+}
+  
+  
+header{ 
+  height:122px;
+}
+
+
+.containerHeader {
+    padding: 0 2vw;
+}
+
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right{ 
+    flex-direction: column;
+  }
+
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+}
+
+flex{
+    display: flex;
+
+}
+
+.items-center {
+  align-items: center;
+  
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+ 
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.semibold{
+    font-weight: bolder;
+}
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/* Add this to your s.css */
+
+.containerHeader {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.search-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+}
+
+.action-name {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.action-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo-container {
+    margin-right: 20px;
+}
+
+.header .navbar {
+    margin-right: auto;
+}
+
+.header .search-bar {
+    margin-right: 20px;
+}
+
+.header .action {
+    display: flex;
+    align-items: center;
+}
+
+.header .action-container {
+    display: flex;
+    align-items: center;
+}
+
+.header .action-name {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header .action-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.action {
+    display: flex;
+    gap: 20px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action-icon {
+    font-size: 24px;
+    color: #888;
+}
+
+.action-name {
+    font-size: 12px;
+    color: #333;
+    margin-top: 4px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
